@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Donegal+One|Montserrat:400,700,900');
+
 body {
-    background: #000;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(bottom, #8e9eab, #eef2f3);
+  background: -moz-linear-gradient(bottom, #8e9eab, #eef2f3);
+  background: -o-linear-gradient(bottom, #8e9eab, #eef2f3);
+  background: linear-gradient(to top, #8e9eab, #eef2f3);
+}
+
+header {
+  width: 100%;
+  font-family: "Donegal One", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+#brand {
+  width: 80%;
+  padding: 15px 0;
+  color: #EEE;
+  text-shadow: 2px 2px 2px #F85032;
+}
+
+#brand:hover {
+  text-transform: uppercase;
+}
+
+footer {
+  width: 100%;
+  background: #222;
+  font-family: "Montserrat", sans-serif;
+  color: #EEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h1 {
+  padding: 10px 0;
+}
+
+#container {
+  width: 80%;
+  flex: 1;
 }
